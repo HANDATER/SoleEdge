@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.logo h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 2.5em;
+}
+
+.logo h1 span{
+    color: #A594F9;
+}
+
+.links ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin: 25px 160px;
+}
+
+.links li{
+    display: inline-block;
+}
+
+.links li a{
+    display: flex;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #000;
+    padding: 20px;
+    border-bottom: #000;
+    transition: 0.2s;
+}
+
+.links li a:hover{
+    color: #A594F9;
+}
+
+.others{
+    margin-top: 45px;
+}
+
+.icon{
+    font-size: 1.2em;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ic:hover{
+    transition: 0.2s;
+}
+
+.ic:hover{
+    color: #A594F9;
+}
+
+.icon4 {
+    display: flex;
+}
+
+.icon4 i{
+    cursor: pointer;
+    position: relative;
+}
+
+#searchbtn{
+    position: absolute;
+    text-decoration: none;
+    border: none;
+    width: 0;
+    transition: 0.3s;
+    background: transparent;
+    margin-left: 25px;
+    outline: none;
+    font-size: 1.4;
+}
+
+.icon4:hover #searchbtn{
+    width: 120px;
+    border-bottom: 1px solid gray;
+}
+
+.back-img img{
+    width: 50%;
+    float: right;
+}
+
+.intro p{
+    padding: 5px;
+}
+
+.line1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+}
+
+.line2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+}
+
+.line3{
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: 200;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
